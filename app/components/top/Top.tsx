@@ -8,7 +8,7 @@ export default function Profile({ className }: { className?: string }) {
       <div className="flex flex-col items-center mx-auto">
         <div className="relative w-64 h-64">
           <Image
-            src={`${BASE_PATH}/icon.png`}
+            src={`${BASE_PATH}/myicon.png`}
             alt="My Icon"
             fill={true}
             objectFit="contain"
