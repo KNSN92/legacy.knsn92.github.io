@@ -12,6 +12,28 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width: {
+        "128": "32rem"
+      },
+      height: {
+        "160": "40rem",
+        "10.5": "2.625rem"
+      },
+      maxWidth: {
+        "128": "32rem"
+      },
+      maxHeight: {
+        "160": "40rem",
+      },
+      minWidth: {
+        "128": "32rem"
+      },
+      minHeight: {
+        "160": "40rem",
+      },
+      aspectRatio: {
+        "4/3": "4 / 3"
+      }
     },
   },
   plugins: [],

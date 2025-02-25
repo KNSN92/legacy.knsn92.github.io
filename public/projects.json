@@ -1,0 +1,79 @@
+[
+  {
+    "title": "迷路ゲーム",
+    "tags": ["python", "pygame"],
+    "description": "pythonで作った簡単な迷路ゲームです。他のゲームでも使っているpygameの練習がてら、適当にwebページに書いている物を一旦書き、迷路の生成法を穴掘り法に変更したりと言った若干の改良を加えています。",
+    "image": "/images/maze.png",
+    "github": null
+  },
+  {
+    "title": "オセロ",
+    "tags": ["python", "pygame"],
+    "description": "pythonで作った簡単なオセロです。ランダムに置くAI機能が付いています。",
+    "image": "/images/othello.png",
+    "github": null
+  },
+  {
+    "title": "ライフゲーム",
+    "tags": ["python", "pygame"],
+    "description": "pythonで作った簡単なライフゲームです。時間を止めたり、マスをいじったり、状態をセーブ/ロードが出来ます。",
+    "image": "/images/lifegame.png",
+    "github": null
+  },
+  {
+    "title": "ヘビゲーム",
+    "tags": ["python", "pygame"],
+    "description": "pythonで作った簡単なヘビゲームです。コード内のコンフィグから餌の量や、壁や自分自身への衝突の際ゲームオーバーになるか等を設定出来ます。",
+    "image": "/images/snake.png",
+    "github": null
+  },
+  {
+    "title": "MineSweeper",
+    "tags": ["python", "pygame"],
+    "description": "pythonで作った簡単なマインスイーパーです。タイマーなどはありません。",
+    "image": "",
+    "github": null
+  },
+  {
+    "title": "KLang",
+    "tags": ["java"],
+    "description": "pythonっぽいプログラミング言語です。",
+    "image": "/images/klang.png",
+    "github": "https://github.com/KNSN92/KLang"
+  },
+  {
+    "title": "電卓",
+    "tags": ["java"],
+    "description": "式から計算できる少し高度な電卓です。数学関数等も少し扱えます。",
+    "image": "/images/calculator.png",
+    "github": null
+  },
+  {
+    "title": "モンテカルロ法式円周率計算ソフト",
+    "tags": ["java"],
+    "description": "モンテカルロ法を使用して大まかな円周率を計算できます。",
+    "image": "/images/montecarlo.png",
+    "github": null
+  },
+  {
+    "title": "Minecraft Log Extractor",
+    "tags": ["python"],
+    "description": "minecraft java版のログファイル(ゲームディレクトリのlogsファイルの中のやつ)からチャット履歴を取り出すツールです。簡単な正規表現とかで実現できました。",
+    "image": "/images/minecraft_log_extractor.png",
+    "github": null
+  },
+  {
+    "title": "mc鯖監視Bot remake",
+    "tags": ["python", "discordpy"],
+    "description": "minecraftのサーバーのプレイヤーの入退出を通知するdiscordのbotです。名前の通りリメイク版です。プレイヤーにニックネームをつけたり、スキンの画像を生成出来たり機能が増えました。",
+    "image": "/images/mc_bot_remake.png",
+    "github": null
+  },
+  {
+    "title": "Latest Music Discs Mod",
+    "tags": ["java", "minecraft", "minecraft-forge"],
+    "description": "minecraft 1.7.10に最新のレコードを追加するminecraftのmodです。",
+    "image": null,
+    "github": null
+  }
+]

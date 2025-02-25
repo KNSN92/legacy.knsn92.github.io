@@ -1,0 +1,58 @@
+[
+  { "category": "os", "icons": ["apple", "windows"] },
+
+  {
+    "category": "editor",
+    "icons": [
+      "vscode",
+      "idea",
+      "pycharm",
+      "arduino",
+      "eclipse",
+      "unity",
+      "godot",
+      "anaconda"
+    ]
+  },
+
+  {
+    "category": "lang",
+    "icons": ["html", "css", "js", "ts", "py", "java", "react", "cs", "nodejs"]
+  },
+
+  {
+    "category": "application",
+    "icons": [
+      "blender",
+      "ai",
+      "ps",
+      "pr",
+      "stackoverflow",
+      "github",
+      "notion",
+      "gmail",
+      "twitter",
+      "discord"
+    ]
+  },
+
+  {
+    "category": "tool",
+    "icons": ["git", "npm", "yarn", "vercel", "vite", "gradle"]
+  },
+
+  {
+    "category": "library / framework",
+    "icons": [
+      "django",
+      "bootstrap",
+      "electron",
+      "nextjs",
+      "opencv",
+      "sklearn",
+      "tailwind"
+    ]
+  },
+
+  { "category": "other", "icons": ["bots", "svg"] }
+]
