@@ -10,9 +10,9 @@ export default function Profile({ className }: { className?: string }) {
         <div className="my-6 text-center flex flex-col items-center justify-center gap-2">
           <p>プログラミングは趣味としてやっています。</p>
           <p>
-            最初はjavaから始まり、今ではpythonやtypescriptなどでweb開発なども行っています。
+            最初はjavaから始まり、今ではpythonやtypescriptなどを使ってweb開発なども行っています。
             <br />
-            今後はrustやUnityなども学んでみたいです。
+            現在rustを少しずつ学習中です。
           </p>
         </div>
         <a href="https://github.com/KNSN92">

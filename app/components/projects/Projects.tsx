@@ -20,7 +20,7 @@ export default function Projects({ className }: { className?: string }) {
           <Swiper
             loop={true}
             autoplay={{
-              delay: 2500,
+              delay: 2000,
               disableOnInteraction: true,
             }}
             modules={[Autoplay]}

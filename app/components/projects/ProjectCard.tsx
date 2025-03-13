@@ -28,10 +28,11 @@ export default function ProjectCard({
               src={`${BASE_PATH}${project.image}`}
               alt="thumb"
               fill
-              className="w-fit h-fit object-contain border-0 rounded"
+              objectFit="contain"
+              className="w-fit h-fit border-0 rounded"
             />
           ) : (
-            <div className="w-full h-full border-0 rounded text-slate-700 font-bold text-6xl flex flex-col justify-center items-center">
+            <div className="size-full border-0 rounded text-slate-700 font-bold text-6xl flex flex-col justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -31,13 +31,13 @@
     "title": "MineSweeper",
     "tags": ["python", "pygame"],
     "description": "pythonで作った簡単なマインスイーパーです。タイマーなどはありません。",
-    "image": "",
+    "image": "/images/minesweeper.png",
     "github": null
   },
   {
     "title": "KLang",
     "tags": ["java"],
-    "description": "pythonっぽいプログラミング言語です。",
+    "description": "pythonっぽいプログラミング言語です。パーサの処理は一応自作で独自の処理方法で実装していますが、既出のアイデアでありそうです。",
     "image": "/images/klang.png",
     "github": "https://github.com/KNSN92/KLang"
   },
@@ -74,6 +74,34 @@
     "tags": ["java", "minecraft", "minecraft-forge"],
     "description": "minecraft 1.7.10に最新のレコードを追加するminecraftのmodです。",
     "image": null,
+    "github": null
+  },
+  {
+    "title": "本のPop",
+    "tags": ["illustrator"],
+    "description": "キャンパスにある「本の凄さ」を紹介するPopポスターです! 様々なエフェクトや装飾を駆使しておしゃれに仕上げたつもりです!",
+    "image": "/images/pop.png",
+    "github": null
+  },
+  {
+    "title": "有田焼紹介サイト",
+    "tags": ["react", "typescript", "vite", "gsap"],
+    "description": "有田焼の特徴や歴史を伝える為に作ったサイトです〜! gsapというアニメーションライブラリを多用することで様々なスクロール効果を詰め込みました。画像は全てフリーのライセンスが付与された物から取ってきています。",
+    "image": "/images/arita_ware.png",
+    "github": null
+  },
+  {
+    "title": "ScreenQRReader",
+    "tags": ["python", "pyobjc", "opencv"],
+    "description": "画面上のQRコードを読み取る事が出来るアプリケーションです。読み取ったQRコードがURLの場合は自動でブラウザを開く設定やグローバルなショートカットキーを設定できる機能もあります。",
+    "image": "/images/screen_qr_reader.png",
+    "github": "https://github.com/KNSN92/ScreenQRReader"
+  },
+  {
+    "title": "クリスマスオーナメント",
+    "tags": ["blender"],
+    "description": "クリスマスツリーに飾るとおしゃれ(とは完全には言い切れない)クリスマスオーナメントです。自分をギッチギチに詰め込みました。",
+    "image": "/images/ornament.png",
     "github": null
   }
 ]
