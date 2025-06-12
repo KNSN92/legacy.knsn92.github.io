@@ -110,5 +110,17 @@
     "description": "mao氏作成のUgoCraftと言うmodをForge環境下で動作できるように橋渡しを行う役割として開発したmodです。外部からUgoCraftのJarファイルを読み込み、コードの書き換えを行う為にASMと呼ばれるライブラリで動的に行っています。",
     "image": "/images/ugorge.png",
     "github": "https://github.com/KNSN92/Ugorge"
+  },
+  {
+    "title": "このサイト",
+    "tags": ["typescript", "tailwind", "react", "nextjs"],
+    "description": "このサイトです。説明は要りませんよね。",
+    "github": "https://github.com/KNSN92/knsn92.github.io"
+  },
+  {
+    "title": "RocketIn.st (共同開発)",
+    "tags": ["typescript", "tailwind", "react", "nextjs", "prisma", "zod", "nextauth"],
+    "description": "学内のキャンパス内の生徒の位置を探すことができるサイトです。私はプログラムのほぼ全てとロゴなどほぼ全てを担当させていただきました。ですが、他の方も、サイトのテーマや名前を一緒に決めたりなど、様々なサポートをしてもらいました。この場でも感謝を申し上げます。",
+    "image": "/images/rocketinst.png"
   }
 ]
