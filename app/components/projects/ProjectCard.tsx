@@ -17,7 +17,7 @@ export default function ProjectCard({
   return (
     <div
       className={
-        "overflow-scroll w-128 max-sm:w-full aspect-[4/5] flex flex-col justify-between rounded bg-slate-800 border border-gray-400 " +
+        "w-128 max-sm:w-full aspect-[4/5] flex flex-col justify-between rounded bg-slate-800 border border-gray-400" +
         className
       }
     >
@@ -69,7 +69,7 @@ export default function ProjectCard({
             </a>
           </div>
         ) : null}
-        <div className="flex">
+        <div className="flex flex-wrap">
           {project.tags.map((tag, i) => (
             <div
               className={clsx(
@@ -87,7 +87,9 @@ export default function ProjectCard({
                   className="block mr-1"
                 />
               ) : null}
-              {tag}
+              <div className="w-fit h-fit">
+                {tag}
+              </div>
             </div>
           ))}
         </div>
