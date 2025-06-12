@@ -17,7 +17,7 @@
 
   {
     "category": "lang",
-    "icons": ["html", "css", "js", "ts", "py", "java", "react", "cs", "nodejs"]
+    "icons": ["html", "css", "js", "ts", "py", "java", "react", "cs", "nodejs", "rust"]
   },
 
   {
@@ -50,7 +50,8 @@
       "nextjs",
       "opencv",
       "sklearn",
-      "tailwind"
+      "tailwind",
+      "tauri"
     ]
   },
 
