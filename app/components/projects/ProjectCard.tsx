@@ -17,7 +17,7 @@ export default function ProjectCard({
   return (
     <div
       className={
-        "w-128 max-sm:w-full aspect-[4/5] flex flex-col justify-between rounded bg-slate-800 border border-gray-400" +
+        "w-128 h-[768px] max-sm:w-full aspect-[4/5] flex flex-col justify-between rounded bg-slate-800 border border-gray-400" +
         className
       }
     >
@@ -33,6 +33,7 @@ export default function ProjectCard({
             />
           ) : (
             <div className="size-full border-0 rounded text-slate-700 font-bold text-6xl flex flex-col justify-center items-center">
+              {/* from heroicons */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -47,7 +48,8 @@ export default function ProjectCard({
                   d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"
                 />
               </svg>
-              <div>No Image</div>
+              <div>NoImage</div>
+              <div className="text-lg">のいまげ</div>
             </div>
           )}
         </div>
@@ -56,9 +58,9 @@ export default function ProjectCard({
           <div className="mb-2">{project.description}</div>
         </div>
       </div>
-      <div className="mx-4 mb-4 flex flex-col justify-between">
-        {project.github ? (
-          <div className="mb-4">
+      <div className="mx-4 mb-4 flex flex-col justify-between gap-2">
+        <div className="flex gap-2 items-center">
+          {project.github && (
             <a href={project.github}>
               <Image
                 src={`${BASE_PATH}/github.svg`}
@@ -67,8 +69,26 @@ export default function ProjectCard({
                 height={32}
               />
             </a>
-          </div>
-        ) : null}
+          )}
+          {project.site && (
+            <a href={project.site}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                />
+              </svg>
+            </a>
+          )}
+        </div>
         <div className="flex flex-wrap">
           {project.tags.map((tag, i) => (
             <div
