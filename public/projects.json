@@ -67,28 +67,28 @@
     "tags": ["python", "discordpy"],
     "description": "minecraftのサーバーのプレイヤーの入退出を通知するdiscordのbotです。名前の通りリメイク版です。プレイヤーにニックネームをつけたり、スキンの画像を生成出来たり機能が増えました。",
     "image": "/images/mc_bot_remake.png",
-    "github": null
+    "github": "https://github.com/KNSN92/MCServerWatchingBotRemake"
   },
   {
     "title": "Latest Music Discs Mod",
     "tags": ["java", "minecraft", "minecraft-forge"],
-    "description": "minecraft 1.7.10に最新のレコードを追加するminecraftのmodです。",
-    "image": null,
-    "github": null
+    "description": "minecraft 1.7.10に最新のレコードを追加するminecraftのmodです。起動時にMojangのサーバーから最新のレコードの情報を取得し、ゲーム内に追加します。",
+    "image": "/images/latest_music_discs.png",
+    "github": "https://github.com/KNSN92/LatestMusicDiscs"
   },
   {
     "title": "本のPop",
     "tags": ["illustrator"],
     "description": "キャンパスにある「本の凄さ」を紹介するPopポスターです! 様々なエフェクトや装飾を駆使しておしゃれに仕上げたつもりです!",
-    "image": "/images/pop.png",
-    "github": null
+    "image": "/images/pop.png"
   },
   {
     "title": "有田焼紹介サイト",
     "tags": ["react", "typescript", "vite", "gsap"],
-    "description": "有田焼の特徴や歴史を伝える為に作ったサイトです〜! gsapというアニメーションライブラリを多用することで様々なスクロール効果を詰め込みました。画像は全てフリーのライセンスが付与された物から取ってきています。",
+    "description": "学校の課題で伝統工芸品紹介ページを作らないといけなかったので、有田焼の特徴や歴史を伝える為に作ったサイトです〜! gsapというアニメーションライブラリを多用することで様々なスクロール効果を詰め込みました。画像は全てフリーのライセンスが付与された物から取ってきています。",
     "image": "/images/arita_ware.png",
-    "github": null
+    "github": "https://github.com/KNSN92/AritaWareIntroduce",
+    "site": "https://arita-ware-introduce.vercel.app"
   },
   {
     "title": "ScreenQRReader",
@@ -101,8 +101,7 @@
     "title": "クリスマスオーナメント",
     "tags": ["blender"],
     "description": "クリスマスツリーに飾るとおしゃれ(とは完全には言い切れない)クリスマスオーナメントです。自分をギッチギチに詰め込みました。",
-    "image": "/images/ornament.png",
-    "github": null
+    "image": "/images/ornament.png"
   },
   {
     "title": "Ugorge",
@@ -113,14 +112,38 @@
   },
   {
     "title": "このサイト",
-    "tags": ["typescript", "tailwind", "react", "nextjs"],
-    "description": "このサイトです。説明は要りませんよね。",
-    "github": "https://github.com/KNSN92/knsn92.github.io"
+    "tags": ["typescript", "tailwind", "react", "nextjs", "gsap"],
+    "description": "このサイトです。説明は要りませんよね。Next.jsのSSG機能を使用しましたが、正直、Next.jsを使うまでも無かった感じがしたり、スキルの所のスクロールだったりサイトに納得いかない所もあったりするので、いずれAstroとかに移行して作り直そうと考えています。",
+    "github": "https://github.com/KNSN92/knsn92.github.io",
+    "site": "https://knsn92.github.io"
   },
   {
     "title": "RocketIn.st (共同開発)",
     "tags": ["typescript", "tailwind", "react", "nextjs", "prisma", "zod", "nextauth"],
-    "description": "学内のキャンパス内の生徒の位置を探すことができるサイトです。私はプログラムのほぼ全てとロゴなどほぼ全てを担当させていただきました。ですが、他の方も、サイトのテーマや名前を一緒に決めたりなど、様々なサポートをしてもらいました。この場でも感謝を申し上げます。",
-    "image": "/images/rocketinst.png"
+    "description": "学内のキャンパス内の生徒の位置を探すことができるサイトです。とはいえ、受けてる授業から部屋を推定しているだけなので、正確性は怪しいです。私はプログラムのほぼ全てとロゴなどほぼ全てを担当させていただきました。ですが、他の方も、サイトのテーマや名前を一緒に決めたりなど、様々なサポートをしてもらいました。この場でも感謝を申し上げます。",
+    "image": "/images/rocketinst.png",
+    "github": "https://github.com/KNSN92/RocketInSt",
+    "site": "https://rocket-in-st.vercel.app"
+  },
+  {
+    "title": "MC Log2Chat",
+    "tags": ["python", "typescript", "react", "shadcn ui", "vite"],
+    "description": "Minecraftのログファイルを読み込み、チャット部分を抽出して見やすく表示するWebアプリケーションです。昔作ったMinecraft Log Extractorのより使いやすいバージョンとして開発しました。メッセージの種類毎の色分けや、検索が可能で、gzip圧縮されたログファイルにも対応しています。Pythonはメッセージの分類に利用するlangファイルのダウンロードとそこからアプリ上で使用するJSONファイルの生成に使用しています。",
+    "image": "/images/mc_log2chat.png",
+    "github": "https://github.com/KNSN92/MC-Log2Chat",
+    "site": "https://knsn92.github.io/MC-Log2Chat"
+  },
+  {
+    "title": "DH2Anvil",
+    "tags": ["rust", "rayon", "serde", "clap", "fastnbt"],
+    "description": "Minecraft上にLevel of detailを導入するDistant Horizons modのキャッシュデータをAnvil形式に変換するコマンドラインツールです。保存されているデータの都合上ブロックとバイオームの復元のみ可能です。rayonによる並列処理を導入したことでシングルスレッドだった当初と比べて文字通り爆速化し、私にとって、並列処理の力を実感できたプロジェクトとなりました。",
+    "image": "/images/dh2anvil.png",
+    "github": "https://github.com/KNSN92/DH2Anvil"
+  },
+  {
+    "title": "Old BC Contents Mod",
+    "tags": ["java", "minecraft", "minecraft-forge"],
+    "description": "BuildCraftの古いバージョンの隣のチェストからアイテムを取り込める全自動作業台と木パイプに接続できる木エンジンを1.7.10に復活させるmodです。BuildCraftのバージョンアップにより削除されたこれらの要素を復活させ、古き良き木エンジンバイオームや配勘の体験を再び楽しむことができます。sneaky pipesのガラスパイプなど、昔のアドオンの要素も含めた他の要素も復活させる事も考えていますが、まだ未定です。",
+    "image": "/images/old_bc_contents.png"
   }
 ]

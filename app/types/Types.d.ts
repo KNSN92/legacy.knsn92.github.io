@@ -5,6 +5,7 @@ export type Project = {
     description: string;
     image?: string | null;
     github?: string | null;
+    site?: string | null;
 }
 
 export type TagIcon = { [tag: string] : string }

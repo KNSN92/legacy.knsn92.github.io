@@ -53,7 +53,5 @@
       "tailwind",
       "tauri"
     ]
-  },
-
-  { "category": "other", "icons": ["bots", "svg"] }
+  }
 ]
