@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "https://knsn92.github.io/knsn92.github.io/legacy/",
+    basePath: "https://knsn92.github.io/legacy.knsn92.github.io/",
     images: {
         remotePatterns: [
             {
