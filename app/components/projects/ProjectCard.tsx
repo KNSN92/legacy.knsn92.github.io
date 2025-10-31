@@ -100,7 +100,7 @@ export default function ProjectCard({
               {tag in tag_icon ? (
                 <Image
                   key={i}
-                  src={`${BASE_PATH}${(tag_icon as TagIcon)[tag]}`}
+                  src={(tag_icon as TagIcon)[tag]}
                   alt={"img of " + tag}
                   width={32}
                   height={32}
